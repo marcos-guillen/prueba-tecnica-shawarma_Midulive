@@ -1,0 +1,7 @@
+pnpm install
+pnpm --filter "backend" dev
+pnpm --filter "frontend" dev
+
+
+Para ejecutar en el origen:
+pnpm --filter "**" dev
